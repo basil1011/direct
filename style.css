@@ -1,0 +1,51 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+body{
+    min-height: 3459px;
+}
+#tre:hover{
+    background-color: rgb(51, 116, 153);
+    font-size: 22px;
+}
+hr{
+    position: relative;
+    background: #000;
+    height: 4px;
+    width: 270px;
+    border: 0px;
+    top: 100vh;
+}
+.st p{
+    color: black;
+}
+.st h2{
+    color: black;
+        margin: 70px 20px 50px;
+}
+@media(min-width: 576px){
+    .containerl{
+        max-width: 540px;
+    }
+}
+@media(min-width: 768px){
+    .containerl{
+        max-width: 720px;
+    }
+}
+@media(min-width: 991px){
+    .containerl{
+        max-width: 960px;
+    }
+    #open{
+    background-color: #000;    }
+    #open li a{
+        max-width: 960px;
+    }
+}
+@media(min-width: 1200px){
+    .containerl{
+        max-width: 1140px;
+    }
+}
